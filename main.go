@@ -17,5 +17,6 @@ func main() {
 	for i := 0; i < 100; i++ {
 		randInt = rand.New(s1).Intn(100)
 		time.Sleep(5 * time.Second)
+		fmt.Printf("%d", randInt)
 	}
 }
